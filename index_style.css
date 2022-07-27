@@ -9,7 +9,25 @@
 }
 
 /*section */
+h2 {
+  display: inline-block; 
+  font-size: 14px;
+  font-weight: 700;
+  /* border-bottom: 3px solid #F26464; */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
+h3 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+
+img {
+  max-width: 70%;
+  height: auto;
+}
 
 /*footer */
 .ds-footer {
