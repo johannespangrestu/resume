@@ -1,19 +1,32 @@
 /* header */
-.ds-header { 
-  position: fixed;
-  top: 0;
-  width: 100%;
-  padding-top: 70px;
-  background-color: #FFF; 
-  z-index: 5;
+.ds-header a img {
+  width: 60px;
+  height: auto;
 }
 
-/*section */
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding-left: 1.5rem;
+}
+
+/* .navbar a:hover {
+  background: #ddd;
+  color: black;
+} */
+
+.ds-logo-name {
+  font-size: 24px;
+}
+
+body {
+  position: relative; 
+}
+
+/*section N.B: EVYERHTING BELOW HERE IS TEMP*/
 h2 {
   display: inline-block; 
   font-size: 14px;
   font-weight: 700;
-  /* border-bottom: 3px solid #F26464; */
+  border-bottom: 3px solid #000000;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -23,13 +36,11 @@ h3 {
   font-weight: 700;
 }
 
-
 img {
-  max-width: 70%;
-  height: auto;
+  width: 70%;
 }
 
-/*footer */
+footer 
 .ds-footer {
   bottom: 0;
   height: 250px;
