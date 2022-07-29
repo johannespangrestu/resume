@@ -15,9 +15,17 @@ body {
   position: relative; 
 }
 
-.profilephoto {
-  width: 65%;
-  height: auto;
+@media (min-width: 1500px) {
+  .profilephoto {
+    width: 50%;
+    height: auto;
+  }
+}
+@media (max-width: 1199.98px) {
+  .profilephoto {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .d-icons a{
@@ -26,6 +34,18 @@ body {
 
 ion-icon {
   font-size: 40px;
+}
+
+#ds-about-section a:hover {
+  color: #fff!important;
+}
+
+#ds-about-section, #ds-skills-section {
+  padding: 90px 20px 0px 20px;
+}
+
+.ds-skills-client {
+  list-style: none;
 }
 
 .ds-footer {
