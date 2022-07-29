@@ -28,7 +28,7 @@ body {
   }
 }
 
-.d-icons a{
+.d-icons a {
   color: #212529!important;
 }
 
@@ -36,11 +36,12 @@ ion-icon {
   font-size: 40px;
 }
 
-#ds-about-section a:hover {
+#ds-about-section a.download-resume:hover {
   color: #fff!important;
 }
 
-#ds-about-section, #ds-skills-section {
+#ds-about-section, #ds-skills-section,
+#ds-work-experience-section, #ds-education-section {
   padding: 90px 20px 0px 20px;
 }
 
@@ -48,10 +49,25 @@ ion-icon {
   list-style: none;
 }
 
-.ds-footer {
-  /* bottom: 0;
-  height: 250px;
+#ds-work-experience-section img {
   width: 100%;
-  background-color: #000;  */
+  height: auto;
+}
+
+#ds-education-section img {
+  width: 100%;
+  height: auto;
+}
+
+.ds-footer {
+  bottom: 0;
+  height: 500px;
+  width: 100%;
   z-index: 5;
+  margin-top: 90px;
+}
+
+.ds-footer a.contact-me:hover {
+  background-color: #ffffff!important;
+  color: #212529!important;
 }
