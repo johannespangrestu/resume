@@ -27,6 +27,14 @@ img {
     width: 100%;
     height: auto;
   }
+  #ds-work-experience-section img {
+    width: 100%;
+    height: auto;
+  }
+  #ds-education-section img {
+    width: 100%;
+    height: auto;
+  }
 }
 @media (min-width: 1200px) {
   section {
@@ -36,7 +44,15 @@ img {
   .profilephoto {
     width: 80%;
     height: auto;
-  } 
+  }
+  #ds-work-experience-section img {
+    width: 80%;
+    height: auto;
+  }
+  #ds-education-section img {
+    width: 80%;
+    height: auto;
+  }
 }
 @media (min-width: 1600px) {
   section {
@@ -49,6 +65,25 @@ img {
   } 
   .ds-info {
     align-items: baseline!important;
+  }
+  #ds-work-experience-section img {
+    width: 65%;
+    height: auto;
+  }
+  #ds-education-section img {
+    width: 65%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 700px) {
+  #ds-work-experience-section img {
+    width: 35%;
+    height: auto;
+  }
+  
+  #ds-education-section img {
+    width: 35%;
+    height: auto;
   }
 }
 
@@ -72,16 +107,6 @@ ion-icon {
 
 .ds-skills-client {
   list-style: none;
-}
-
-#ds-work-experience-section img {
-  width: 100%;
-  height: auto;
-}
-
-#ds-education-section img {
-  width: 100%;
-  height: auto;
 }
 
 .ds-footer {
