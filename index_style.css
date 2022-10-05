@@ -78,7 +78,7 @@ img {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 700px) and (orientation:portrait) {
   #ds-work-experience-section img {
     width: 25%;
     height: auto;
@@ -90,7 +90,7 @@ img {
   }
 }
 
-@media screen and (max-width: 700px) and (max-height:450px) {
+@media screen and (max-width: 700px) and (orientation:landscape) {
   #ds-work-experience-section img {
     width: 15%;
     height: auto;
