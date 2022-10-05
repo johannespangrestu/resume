@@ -12,7 +12,7 @@
 }
 
 body {
-  position: relative; 
+  position: relative;
 }
 
 img {
@@ -22,7 +22,7 @@ img {
   transition: all 1s ease;
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   section {
     padding-right: calc(14% - 8px);
     padding-left: calc(14% - 8px);
@@ -30,21 +30,21 @@ img {
   .profilephoto {
     width: 75%;
     height: auto;
-  } 
+  }
   .ds-info {
     align-items: baseline!important;
   }
   #ds-work-experience-section img {
-    width: 65%;
+    width: 126px;
     height: auto;
   }
   #ds-education-section img {
-    width: 65%;
+    width: 126px;
     height: auto;
   }
 }
 
-@media (min-width: 1200px) {
+@media (max-width: 1399.98px) {
   section {
     padding-right: calc(10% - 8px);
     padding-left: calc(10% - 8px);
@@ -54,11 +54,11 @@ img {
     height: auto;
   }
   #ds-work-experience-section img {
-    width: 50%;
+    width: 80%;
     height: auto;
   }
   #ds-education-section img {
-    width: 50%;
+    width: 80%;
     height: auto;
   }
 }
@@ -76,40 +76,28 @@ img {
     width: 75%;
     height: auto;
   }
-}
+} 
 
-@media screen and (max-width: 700px) {
-  #ds-work-experience-section img {
-    width: 25%;
-    height: auto;
-  }
-  
-  #ds-education-section img {
-    width: 25%;
-    height: auto;
-  }
-}
-
-@media screen and (max-width: 700px) and (orientation:landscape) {
+@media screen and (max-width: 767px) {
   #ds-work-experience-section img {
     width: 15%;
     height: auto;
   }
-  
+
   #ds-education-section img {
     width: 15%;
     height: auto;
   }
 }
 
-@media screen and (min-width: 701px) and (orientation:landscape) {
+@media screen and (max-width: 400px) {
   #ds-work-experience-section img {
-    width: 65%;
+    width: 30%;
     height: auto;
   }
-  
+
   #ds-education-section img {
-    width: 65%;
+    width: 30%;
     height: auto;
   }
 }
