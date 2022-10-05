@@ -12,11 +12,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
-        $('.nav-link').click(function(){
-            $('.navbar-toggler').click();
-        });
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Custom CSS  -->
     <link rel="stylesheet" href="index_style.css">
@@ -223,7 +219,13 @@
         </div>
     </footer>
 
-    <script src="index.js"></script>
+
+    <script>
+        $('.nav-link').click(function(){
+            $('.navbar-toggler').click();
+        });
+    </script>
+    
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
