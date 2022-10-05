@@ -78,7 +78,7 @@ img {
   }
 }
 
-@media screen and (max-width: 700px) and (orientation:portrait) {
+@media screen and (max-width: 700px) {
   #ds-work-experience-section img {
     width: 25%;
     height: auto;
@@ -92,13 +92,25 @@ img {
 
 @media screen and (max-width: 700px) and (orientation:landscape) {
   #ds-work-experience-section img {
-    width: auto;
-    height: 15%;
+    width: 15%;
+    height: auto;
   }
   
   #ds-education-section img {
-    width: auto;
-    height: 15%;
+    width: 15%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 701px) and (orientation:landscape) {
+  #ds-work-experience-section img {
+    width: 65%;
+    height: auto;
+  }
+  
+  #ds-education-section img {
+    width: 65%;
+    height: auto;
   }
 }
 
