@@ -111,7 +111,7 @@ ion-icon {
 }
 
 #ds-about-section a.download-resume:hover {
-  color: #fff!important;
+  background-color: #343a40!important;
 }
 
 #ds-about-section, #ds-skills-section,
